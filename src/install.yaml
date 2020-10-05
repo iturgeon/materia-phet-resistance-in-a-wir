@@ -1,0 +1,29 @@
+general:
+  name: Resistance in a Wire by PhET
+  group: PhET
+  height: 680
+  width: 900
+  in_catalog: Yes
+  is_editable: No
+  is_playable: Yes
+  is_qset_encrypted: Yes
+  is_answer_encrypted: Yes
+  is_storage_enabled: No
+  api_version: 2
+files:
+  player: player.html
+  creator: default
+  flash_version: 0
+score:
+  is_scorable: No
+  score_module: GravityAndOrbits
+meta_data:
+  features:
+    - Mobile Friendly
+    - Simulation
+    - PhET
+  supported_data:
+  about: >
+    Observe changes to the equation and wire as you play with the resistivity, length, and area sliders.
+  excerpt: >
+    Observe changes to the equation and wire as you play with the resistivity, length, and area sliders.

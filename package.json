@@ -1,0 +1,45 @@
+{
+  "name": "@ucfcdl/phet-materia-resistance-in-a-wire",
+  "materia": {
+    "cleanName": "resistance-in-a-wire-by-phet"
+  },
+  "dependencies": {
+    "materia-widget-development-kit": "2.5.0",
+    "napa": "^3.0.0"
+  },
+  "devDependencies": {},
+  "napa": {
+    "phet-assert": "phetsims/assert",
+    "phet-axon": "phetsims/axon",
+    "phet-babel": "phetsims/babel",
+    "phet-brand": "phetsims/brand",
+    "phet-chipper": "phetsims/chipper",
+    "phet-dot": "phetsims/dot",
+    "phet-joist": "phetsims/joist",
+    "phet-kite": "phetsims/kite",
+    "phet-phet-core": "phetsims/phet-core",
+    "phet-phetcommon": "phetsims/phetcommon",
+    "phet-phetmarks": "phetsims/phetmarks",
+    "phet-query-string-machine": "phetsims/query-string-machine",
+    "phet-resistance-in-a-wire": "phetsims/resistance-in-a-wire",
+    "phet-scenery": "phetsims/scenery",
+    "phet-scenery-phet": "phetsims/scenery-phet",
+    "phet-sherpa": "phetsims/sherpa",
+    "phet-sun": "phetsims/sun",
+    "phet-tambo": "phetsims/tambo",
+    "phet-tandem": "phetsims/tandem",
+    "phet-utterance-queue": "phetsims/utterance-queue"
+  },
+  "scripts": {
+    "install": "napa",
+    "start": "webpack-dev-server",
+    "lint": "echo 'not implemented'",
+    "build": "webpack -p",
+    "build-dev": "webpack",
+    "test": "echo 'not implemented'",
+    "test-ci": "echo 'not implemented'"
+  },
+  "author": "University of Colorado Boulder",
+  "description": "Gravity and Orbits by PhET Interactive Simulations, University of Colorado Bolder wrapped in a Materia widget",
+  "version": "1.0.0"
+}
